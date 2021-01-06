@@ -1,0 +1,87 @@
+body{
+   margin:0;
+}
+.tomato-color{
+    color: tomato;
+    font-size: 50px;
+}
+p{
+    color:dimgray;
+    font-size: 30px;
+}
+.about{
+    font-size: 50px;
+}
+.half-width{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+    
+}
+.half-width img{
+    width: 100%;
+
+}
+.anchor-highlight{
+    background-image: linear-gradient(45deg, lightSalmon, tomato);
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-weight: bold;
+}
+.first-header{
+     font-size: 50px;
+}
+.third-header{
+    color: tomato;
+}
+.anchor-highlight:hover{
+    background:black;
+}
+
+.image-management img{
+    width:30%;
+    float:left;
+    margin-left:35px;
+    border-radius: 15px ;
+}
+.three-part-section{
+    height:600px;
+    width:100%;
+    background-color: rgb(207, 207, 218);
+}
+#project-header{
+    text-align: center;
+    margin:120px 0px 120px 0px;
+    font-size:50px;
+    font-family: fantasy;
+}
+.two-part-section{
+    height:650px;
+}
+.container img{
+    width: 1000px;
+    height: 200px;
+    margin-left: 0%;
+    margin-top: 100px;
+}
+
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+.work-inquiry {
+    position: absolute;
+    top: 70%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+  }
+  .anchor-chat{
+    position: absolute;
+    top: 70%;
+    left: 70%;
+    transform: translate(-50%, -50%);
+  }
